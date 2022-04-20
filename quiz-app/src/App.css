@@ -31,6 +31,16 @@ button:hover {
   cursor: pointer;
 }
 
+/*
+button:active {
+  background: yellow;
+}
+*/
+
+button:focus {
+  background: yellow;
+}
+
 .Quiz {
   width: 500px;
   height: 500px;

@@ -14,7 +14,9 @@ function App() {
   
   return (
     <div className="App">
-     <h1>Quiz App</h1>
+     <h1>Sample Quiz App About JurisTech</h1>
+     <h2>by </h2>
+     <h2>V.S.Naaviinesh</h2>
      <GameStateContext.Provider value={{gamestate,setGameState,userName,setUserName,score,setScore}}>
         {gamestate === "menu" && <Menu/>}
         {gamestate === "playing" && <Quiz/>}
